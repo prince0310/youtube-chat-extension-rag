@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Chat",
+    "version": "1.0.0",
+    "description": "Chat with any YouTube video's transcript using AI.",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:8000/*",
+        "https://www.youtube.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "YouTube Chat"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    }
+}
