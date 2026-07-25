@@ -16,12 +16,12 @@ Chat with any YouTube video's transcript directly from your browser using a Chro
 
 ---
 
-## 📸 Demo
 
-Uploading 2026-07-25 16-32-00.mp4…
+## 🎥 Demo
 
-Or add a link to your LinkedIn demo post here.
+📹 **Watch the project demo on LinkedIn:**
 
+[YouTube Chat Extension Demo](https://www.linkedin.com/posts/prince-kumar-239304209_ai-generativeai-rag-ugcPost-7486742460493160448-oUA8/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADTnkE0BRkY6Nx2WYUoKHLVhonPYg5KiX2U)
 ---
 
 ## 🏗️ Architecture
